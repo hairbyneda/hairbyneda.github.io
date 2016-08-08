@@ -1,5 +1,5 @@
 body {
-  padding: 3em 0;
+  padding: 5em 0;
   background: #000;
   color: #E7E7E7;
 }
@@ -14,6 +14,9 @@ body .center.aligned {
 
 body .item a, body .item a:hover, body .item a:active {
   color: #FFF;
+}
+
+body .item a:hover {
   text-decoration: underline;
 }
 
@@ -27,6 +30,7 @@ body .ui.list {
 
 body .ui.list > .item i, .ui.list > .item .content {
   display: inline !important;
+  font-size: 1.2em;
 }
 
 body .facebook.icon {
